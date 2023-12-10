@@ -3,7 +3,7 @@ import './index.scss';
 import AravindLogo from '../../assets/images/aravind-logo.PNG'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faHome, faUser,faEye } from '@fortawesome/free-solid-svg-icons'
-import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 const Sidebar = () => (
     <div className='nav-bar'>
@@ -31,6 +31,14 @@ const Sidebar = () => (
                     href='https://www.linkedin.com/in/aravind-t-m-2b711418b/'
                 >
                     <FontAwesomeIcon icon={faLinkedin} color="#4d4d4e" />
+                </a>
+            </li>
+            <li>
+                <a target='_blank'
+                    rel='noreferrer'
+                    href='https://www.linkedin.com/in/aravind-t-m-2b711418b/'
+                >
+                    <FontAwesomeIcon icon={faGithub} color="#4d4d4e" />
                 </a>
             </li>
         </ul>
