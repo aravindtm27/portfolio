@@ -8,16 +8,17 @@ const Layout = () => {
         <Sidebar />
         <div className='page'>
             <span className='tags top-tags'>&lt;body&gt;</span>
+            </div>
 
             <Outlet />
 
-            <span className='tags bottom-tags'>
+            <span className=' bottom-tag'>
             &lt;body&gt;
             <br />
             <span className='bottom-tag-html'>&lt;html&gt;</span>
             </span>
 
-        </div>
+        
     </div>
     )
 }
