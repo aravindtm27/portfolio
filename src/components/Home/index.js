@@ -5,7 +5,6 @@ import { useEffect, useState } from "react";
 
 const Home = () => {
     const [letterClass, setLetterClass] = useState('text-animate');
-    
     const nameArray = ['A','r','a','v','i','n','d',','];
     const jobArray = ['F','u','l','l','s','t','a','c','k',' ','D','e','v','e','l','o','p','e','r'];
     
