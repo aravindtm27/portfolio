@@ -1,0 +1,75 @@
+.projects{
+    display: flex;
+    align-items: center;
+    margin: 20%;
+    animation: fadeIn 1.3s;
+
+    .proj1{
+        position: absolute;
+        width: 400px;
+        height: 400px;
+        overflow: hidden;
+        top: 40px;
+
+        img{
+            height: 250px;
+            width: 300px;
+            border-radius: 5px;
+
+            &:hover{
+                height: 280px;
+                width: 330px;
+                transition: 0.5s;
+            }
+        }
+
+        h1{
+            font-family: 'Coolvetica';
+            color: yellow;
+            font-weight: 300;
+            font-size:x-large;
+        }
+
+        p{
+            font-family: 'Coolvetica';
+            color: rgb(196, 207, 218);
+            font-weight: 200;
+            font-size: large;
+        }  
+    }
+
+    .proj2{
+        position: absolute;
+        width: 400px;
+        height: 400px;
+        overflow: hidden;
+        top: 40px;
+        right:400px;
+
+        img{
+            height: 250px;
+            width: 300px;
+            border-radius: 5px;
+
+            &:hover{
+                height: 280px;
+                width: 330px;
+                transition: 0.5s;
+            }
+        }
+
+        h1{
+            font-family: 'Coolvetica';
+            color: yellow;
+            font-weight: 300;
+            font-size:x-large;
+        }
+
+        p{
+            font-family: 'Coolvetica';
+            color: rgb(196, 207, 218);
+            font-weight: 200;
+            font-size: large;
+        }  
+    }
+}
