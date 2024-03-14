@@ -2,13 +2,21 @@ import './index.scss';
 import Sidebar from '../Sidebar/index.js';
 import Proj1 from "./proj1/proj1.PNG";
 import Proj2 from "./proj2/proj2.PNG";
+import Proj3 from "./proj3/proj3.png"
+
 
 const Projects = () => {
+
     return(
         <>
         <Sidebar/>
 
         <div className='projects'>
+        <div className='proj3' onClick={()=>window.location.href="https://bestgowallet-frontend-51jr8hdna-aravindtm27s-projects.vercel.app/"}>
+                <img src={Proj3} alt='project3'/>
+                <h1>BestGo Wallet</h1>
+                <p>A demo digital wallet that gives you a random balance and lets you transfer it.</p>
+            </div>
          <div className='proj1'>
             <img src={Proj1} alt='project1'/>
             <h1>Bloggy</h1>
@@ -19,6 +27,7 @@ const Projects = () => {
                 <h1>Todotwist</h1>
                 <p>A task manager application which helps you track all your todos with ease.</p>
             </div>
+            
         </div>
         </>
     )
