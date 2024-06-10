@@ -18,13 +18,13 @@ const Projects = () => {
                 <h1>BestGo Wallet</h1>
                 <p>A demo digital wallet that gives you a random balance and lets you transfer it.</p>
             </div>
-        <div className='proj4' onClick={()=>window.location.href="https://bestgowallet-frontend-51jr8hdna-aravindtm27s-projects.vercel.app/"}>
+        <div className='proj4' onClick={()=>window.location.href="https://reactflowproj.vercel.app/"}>
                 <img src={Proj4} alt='project4'/>
                 <h1>Chatbot Flow Builder</h1>
                 <p>A flow builder project using reactflow library.</p>
             </div>
          <div className='proj1'>
-            <img src={Proj1} alt='project1'/>
+            <img src={Proj1} alt='project1'onClick={()=>window.location.href="https://medium-clone-nine-tawny.vercel.app/"}/>
             <h1>Medium Clone</h1>
             <p>A fullstack blogging applications with all of the CRUD operation and authentication, using react and backend deployed on Cloudflare</p>
             </div>   
